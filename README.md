@@ -9,6 +9,19 @@ This example has been built with:
 
 This software has been developed with **Ruby 2.4**, but older versions should work too (as long Sinatra supports them).
 
+## What to know about this project
+
+The endpoints of the application are defined in `app.js`.
+
+In `gestpay_ws_crypt_decrypt/ws_crypt_decrypt.rb` there is the class that performs SOAP requests to Gestpay.
+
+In the directory `views/` there are the pages that will be rendered to html, via `erb`, a super-easy template engine.
+
+In the directory `public/` you'll find images and other assets used to render the website. Have a look to
+`public/js/app.js` that contains the code for the iframe functionality.
+
+in `constants/constants.rb` you can define your own test shop code and the environment (`:test` or `:prod`).
+
 ## How to Install
 
 This software is not a gem but just a standalone example.

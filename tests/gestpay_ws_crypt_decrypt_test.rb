@@ -1,9 +1,9 @@
 require "test/unit"
 
-require_relative "../ruby_gestpay_starter/gestpay_ws_crypt_decrypt.rb"
+require_relative "../gestpay_ws_crypt_decrypt/ws_crypt_decrypt"
 
 
-module RubyGestpayStarter
+module Gestpay
 
   class GestpayWsCryptDecryptTest < Test::Unit::TestCase
 
